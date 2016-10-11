@@ -1,0 +1,59 @@
+.box-container{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.box {
+    background-color: dimgray;
+    width: 250px;
+    height: 250px;
+    
+    position: relative;
+    margin: 10px;
+    color: white;
+    float: left;
+    overflow: hidden;
+}
+.box p{
+    font-size: 32px;
+    text-align: center;
+    padding-top:  20px;
+}
+
+.box .footer{
+    background-color: lightgray;
+    color: black;
+    width: 100%;
+    position: absolute;
+    bottom: -50px;
+    height: 50px;
+    margin: 0px;
+    transition: 400ms;
+}
+div.box:hover .footer{
+    bottom: 0px;
+}
+.title p{
+    transition: 200ms;
+    transition-delay: 300ms;
+
+}
+div.box:hover .title p{
+    font-weight: bold;
+}
+
+.box .footer p{
+    padding: 0px;
+    font-size: 24px;
+    margin: 0px;
+    margin-top: 10px;
+    padding-left: 10px;
+    position: absolute;
+    text-align: justify;
+}
+.box .footer .handles{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    margin: 0px;
+}
