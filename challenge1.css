@@ -1,0 +1,23 @@
+.box {
+    background-color: lightgray;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    margin: 0px;
+
+}
+
+.box .footer{
+    background-color: darkgray;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    height: 70px;
+    margin: 0px;
+}
+
+.box .footer p{
+    font-size: 24px;
+    padding-left: 10px;
+    position: relative;
+}
